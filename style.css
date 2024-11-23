@@ -1,0 +1,72 @@
+/* ESTILO DEL BODY */
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ESTILO DEL HEADER */
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin:0px;
+    padding:5px;
+    border-radius: 25px;
+    border: solid 2px white;
+    font-size: 24px;
+}
+
+/* ESTILO DE LA SECCIÓN TEXTOS */
+section.estilos-texto{
+    display:flex;
+    background-color: beige;
+    margin:10px;
+    padding:5px;
+    border: solid black 2px;
+}
+
+/* ESTILO DE LA SECCIÓN LISTAS Y TABLAS */
+section.estilos-listasytablas{
+    background-color:rgba(165, 42, 42, 0.322);
+    margin: 10px;
+    padding: 5px;
+    border: solid black 2px;
+}
+
+/* ESTILO DE LA SECCIÓN FORMULARIOS */
+section.formularios{
+    background-color: rgba(95, 235, 95, 0.521);
+    margin:10px;
+    padding:5px;
+    border: solid black 2px;
+}
+
+/* ESTILO DE LA SECCIÓN FLEXBOX*/
+section.estilos-flexbox{
+    background-color: rgba(53, 216, 181, 0.411);
+    margin:10px;
+    padding:5px;
+    border: solid black 2px;
+}
+
+/* ESTILO DE LA SECCIÓN GRID*/
+section.estilos-grid{
+    background-color: rgba(216, 53, 202, 0.411);
+    margin:10px;
+    padding:5px;
+    border: solid black 2px;
+}
+
+/* ESTILO DE LA SECCIÓN FOOTER*/
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin:0px;
+    padding:5px;
+    border: solid black 2px;
+    border-radius: 25px;
+}
