@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica CSS</title>
+    
+    <!-- Icono del sitio web -->
     <link rel="shortcut icon" href="assets/logocss.png" type="image/x-icon">
+    
+    <!-- Conección al archivo "style.css" para dar estilos -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Fuente de texto: Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Práctica CSS</h1>
@@ -16,46 +26,44 @@
     <section class="estilos-texto"> <!-- Esta sección es para dar estilos a los textos -->
         <h2>Estilos de Texto</h2>
         <ul>
-            <li>Color</li><!-- Este parrafo es para darle color -->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate sed modi ullam.</p>
+            <li class="subtitulos">Color</li><!-- Este parrafo es para darle color -->
+            <p id="color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate sed modi ullam.</p>
 
-            <li>Color de fondo</li><!-- Este parrafo es para darle fondo coloreado -->
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat dicta ex pariatur in dolores dolorum ea at.</p> 
+            <li class="subtitulos">Color de fondo</li><!-- Este parrafo es para darle fondo coloreado -->
+            <p id="background-color">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat dicta ex pariatur in dolores dolorum ea at.</p> 
 
-            <li>Align-Self (Alineado)</li><!-- Estos parrafos son para alinearlos a la izquierda, al centro y a la derecha-->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <li class="subtitulos">Align-Self (Alineado)</li><!-- Estos parrafos son para alinearlos a la izquierda, al centro y a la derecha-->
+            <p id="align-self-left">Texto alineado a la izquierda</p> 
+            <p id="align-self-center">Texto alineado al centro</p> 
+            <p id="align-self-right">Texto alineado a la derecha</p>
 
-            <li>Text-Decoration (Decoración con línea)</li> <!-- Estos parrafos son para decorarlos con una linea arriba, en medio y abajo -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
+            <li class="subtitulos">Text-Decoration (Decoración con línea)</li> <!-- Estos parrafos son para decorarlos con una linea arriba, en medio y abajo -->
+            <p id="text-decoration-overline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
+            <p id="text-decoration-line-through">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
+            <p id="text-decoration-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum, exercitationem odio odit assumenda.</p>
 
-            <li>Text-Transformation (Transformación)</li> <!-- Estos parrafos son para transformar su texto en mayusculas, minusculas y capitalize-->
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <li class="subtitulos">Text-Transformation (Transformación)</li> <!-- Estos parrafos son para transformar su texto en mayusculas, minusculas y capitalize-->
+            <p id="text-transformation-uppercase">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p id="text-transformation-lowercase">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p id="text-transformation-capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
-            <li>Text-Spycing (Espaciado)</li> <!-- Estos parrafos son para darle un espaciado (indentación) -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <li class="subtitulos">Text-Spycing (Espaciado)</li> <!-- Estos parrafos son para darle un espaciado (indentación) -->
+            <p id="text-spacing-indent">Este parrafo comienza con sangria.</p>
+            <p id="text-spacing-spacing">Espacio entre letras.</p>
+            <p id="text-spacing-line-height">Este parrafo tiene un espacio determinado entre los otros parrafos.</p>
+            <p id="text-spacing-word-spacing">Las palabras en este parrafo estan espaciadas.</p>
+            <p id="text-spacing-nowrap">Este parrafo desbordaria el formato de caja si fuera mas grande de lo normal. Por eso es que sigo escribiendo un poco mas</p>
 
-            <li>Text-Shadow</li><!-- Estos parrafos son para darle sombreado al texto -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium exercitationem nesciunt ratione!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium exercitationem nesciunt ratione!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium exercitationem nesciunt ratione!</p>
+            <li class="subtitulos">Text-Shadow (Sombreado)</li><!-- Estos parrafos son para darle sombreado al texto -->
+            <p id="text-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium exercitationem nesciunt ratione!</p>
 
-            <li>Fuentes de texto</li> <!-- Estos parrafos son para darles diferentes tipos de fuentes a los textos -->
-            <p>Esta es una fuente Serif</p>
-            <p>Esta es una fuente Sans-serif</p>
-            <p>Esta es una fuente Monospace</p>
-            <p>Esta es una fuente Cursive</p>
-            <p>Esta es una fuente Fantasy</p>
-            <p>Esta es una fuente de Google</p>
+            <li class="subtitulos">Fuentes de texto</li> <!-- Estos parrafos son para darles diferentes tipos de fuentes a los textos -->
+            <p id="font-family-serif">Esta es una fuente Serif</p>
+            <p id="font-family-sans-serif">Esta es una fuente Sans-serif</p>
+            <p id="font-family-monospace">Esta es una fuente Monospace</p>
+            <p id="font-family-cursive">Esta es una fuente Cursive</p>
+            <p id="font-family-fantasy">Esta es una fuente Fantasy</p>
+            <p id="font-family-google">Esta es una fuente de Google</p>
         </ul>
     </section> 
     
@@ -63,17 +71,17 @@
         <h2>Estilos de Listas</h2>
         <h3>Lista Desordenada (Cosas que me gustan)</h3>
         <ul>
-            <li>Cafe</li>
-            <li>Chocolate</li>
-            <li>Videojuego</li>
-            <li>Enfermería</li>
+            <li id="circle">Cafe</li>
+            <li id="square">Chocolate</li>
+            <li id="kannada">Videojuego</li>
+            <li id="disc">Enfermería</li>
         </ul>
         <h3>Lista Ordenada (Cosas para hacer)</h3>
         <ol>
-            <li>Terminar tesis</li>
-            <li>Rendir examen de curso de Emergentología</li>
-            <li>Crear primer sitio web antes de que termine Noviembre</li>
-            <li>Tener tiempo para la familia y los amigos</li>
+            <li id="roman">Terminar tesis</li>
+            <li id="number">Rendir examen de curso de Emergentología</li>
+            <li id="latin">Crear primer sitio web antes de que termine Noviembre</li>
+            <li id="greek">Tener tiempo para la familia y los amigos</li>
         </ol>
         <h2>Estilos de Tablas</h2>
         <table>

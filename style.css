@@ -1,11 +1,15 @@
 /* ESTILO DEL BODY */
 body{
     background-color: rgb(247, 247, 247);
-}
-
-h2{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    li.subtitulos{
+        font-weight: bold;
+    }    
 }
 
 /* ESTILO DEL HEADER */
@@ -22,12 +26,83 @@ header{
 
 /* ESTILO DE LA SECCIÓN TEXTOS */
 section.estilos-texto{
-    display:flex;
+    display:block;
     background-color: beige;
     margin:10px;
     padding:5px;
     border: solid black 2px;
+    #color{
+        color:blueviolet;
+    }
+    #background-color{
+        background-color: chartreuse;
+    }
+    #align-self-left{
+        text-align: left;
+    }
+    #align-self-center{
+        text-align: center;
+    }
+    #align-self-right{
+        text-align: right;
+    }
+    #text-decoration-overline{
+        text-decoration: overline double blue;
+    }
+    #text-decoration-line-through{
+        text-decoration: line-through red;
+    }
+    #text-decoration-underline{
+        text-decoration: underline wavy green;
+    }
+    #text-transformation-uppercase{
+        text-transform: uppercase;
+    }
+    #text-transformation-lowercase{
+        text-transform: lowercase;
+    }
+    #text-transformation-capitalize{
+        text-transform: capitalize;
+    }
+    #text-spacing-indent{
+        text-indent: 40px;
+    }
+    #text-spacing-spacing{
+        letter-spacing: 10px;
+    }
+    #text-spacing-line-height{
+        line-height: 100px;
+    }
+    #text-spacing-word-spacing{
+        word-spacing: 50px;
+    }
+    #text-spacing-nowrap{
+        white-space: nowrap;
+    }
+    #text-shadow{
+        text-shadow: 5px 5px 5px;
+    }
+    #font-family-serif{
+        font-family: serif;
+    }
+    #font-family-sans-serif{
+        font-family: sans-serif;
+    }
+    #font-family-monospace{
+        font-family: monospace;
+    }
+    #font-family-cursive{
+        font-family: cursive;
+    }
+    #font-family-fantasy{
+        font-family: fantasy;
+    }
+    #font-family-google{
+        font-family: oswald;
+        font-size: 20px;
+    }
 }
+
 
 /* ESTILO DE LA SECCIÓN LISTAS Y TABLAS */
 section.estilos-listasytablas{
@@ -35,6 +110,45 @@ section.estilos-listasytablas{
     margin: 10px;
     padding: 5px;
     border: solid black 2px;
+    #circle{
+        list-style-type: circle;
+    }
+    #square{
+        list-style-type: square;
+    }
+    #kannada{
+        list-style-type: kannada;
+    }
+    #disc{
+        list-style-type:disc;
+    }
+    #roman{
+        list-style: lower-roman;
+    }
+    #latin{
+        list-style:upper-latin
+    }
+    #greek{
+        list-style: lower-greek;
+    }
+    table{
+        margin: 5px;
+        border: 2px solid black;
+        padding: 0px;
+        width: 80%;
+        th{
+            height: 20px;
+            font-size: 18px;
+            background-color: antiquewhite;
+            font-weight: bold;
+        }
+        tr:hover{
+            background-color: rgba(204, 140, 140, 0.568);
+        }
+        td{
+            text-align: center;
+        }
+    }
 }
 
 /* ESTILO DE LA SECCIÓN FORMULARIOS */
@@ -43,6 +157,34 @@ section.formularios{
     margin:10px;
     padding:5px;
     border: solid black 2px;
+    #name:hover{
+        transition-duration: 2s ;
+        background-color: bisque;
+    }
+    #name:focus{
+        transition-timing-function: linear;
+        background-color: brown;
+        color: white;
+    }
+    #age:hover{
+        transition-duration: 2s;
+        background-color: greenyellow;
+    }
+    #age:focus{
+        transition-timing-function: linear;
+        background-color: green;
+        color: white;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+    button:focus{
+        background-color: blue;
+        color:white;
+    }
 }
 
 /* ESTILO DE LA SECCIÓN FLEXBOX*/
