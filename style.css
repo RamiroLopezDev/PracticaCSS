@@ -193,7 +193,30 @@ section.estilos-flexbox{
     margin:10px;
     padding:5px;
     border: solid black 2px;
-}
+    height: 500px;  
+    text-align: center;
+    }
+    
+    .flex-container{
+        border: solid black 1px;
+        display: flex;
+        width:80%;
+        height:400px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    .divflexbox{
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        border: black 2px solid;
+        background-color: darkgreen;
+        color: white;
+        margin-right: 10px;
+        align-items: center;
+    }
 
 /* ESTILO DE LA SECCIÓN GRID*/
 section.estilos-grid{
@@ -202,7 +225,25 @@ section.estilos-grid{
     padding:5px;
     border: solid black 2px;
 }
-
+.grid-container{
+    display: grid;
+    border: solid 2px black;
+    width: 700px;
+    height: 400px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    background-color: azure;
+    justify-content: space-evenly;
+    align-self: space-around;
+    justify-self: center;
+}
+.div-grid-item{
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top: 40px;
+}
 /* ESTILO DE LA SECCIÓN FOOTER*/
 footer{
     background-color: rgb(0, 0, 0);
